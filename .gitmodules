@@ -47,3 +47,6 @@
 [submodule "roles/vagrant"]
 	path = roles/vagrant
 	url = https://github.com/csanquer/ansible-role-vagrant.git
+[submodule "roles/golang"]
+	path = roles/golang
+	url = git@github.com:seblegall/ansible-role-golang.git

@@ -203,11 +203,9 @@ apt_extra_packages:
   - keepassx
   - keepass2
   - keepass2-doc
-  - libreoffice
   - graphviz
   - gimp
   - inkscape
-  # - nautilus-dropbox
   - gnome-control-center
   - unity-chromium-extension
   - unity-tweak-tool
@@ -219,10 +217,10 @@ apt_extra_packages:
   - openjdk-8-jre
   - openjdk-8-jdk
   - icedtea-8-plugin
-  - gnucash
   - gwakeonlan
   - virtualbox-5.1
   - dkms
+  - emacs
 
 samba_workgroup: WORKGROUP
 
@@ -304,7 +302,7 @@ zsh_users:
 account_users:
   "{{ ansible_ssh_user }}":
     name: "{{ ansible_ssh_user }}"
-    comment: Charles Sanquer
+    comment: Sébastien Le Gall
     # home: # default = /home/<username>
     # home_mode: #default = 'u=rwx,g=rx,o=rx'
     # home_owner: # default = <username>
@@ -343,7 +341,7 @@ account_users:
     color_prompt: yes
     ssh_agent_autostart: no
     gitconfig:
-      - { name: 'user.name', option: 'Charles Sanquer'}
-      - { name: 'user.email', option: 'charles.sanquer@gmail.com'}
+      - { name: 'user.name', option: 'Sébastien Le Gall'}
+      - { name: 'user.email', option: 'seb@le-gall.net'}
   #  bash_aliases:
   #     <alias>: <command>

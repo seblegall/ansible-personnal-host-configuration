@@ -1,4 +1,4 @@
-Charles Sanquer's desktop install ansible configuration
+Sébastien Le Gall's desktop install ansible configuration
 =======================================================
 
 Ansible configuration to setup my desktop development environment.

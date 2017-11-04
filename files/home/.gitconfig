@@ -1,6 +1,6 @@
 [user]
-    name =
-    email =
+    name = "Sébastien Le Gall"
+    email = "seb@le-gall.net"
 [color]
     ui = true
 [core]

@@ -274,7 +274,7 @@ zsh_users:
   -
     user: "{{ ansible_ssh_user }}"
     env_vars:
-      PATH: '$HOME/bin:/usr/local/bin:$PATH'
+      PATH: '$HOME/bin:/usr/local/bin:/usr/local/go/bin:$HOME/Go/bin:$PATH'
       GOPATH: '$HOME/Go'
     theme: csa
     # custom theme files to copy to ~/.oh-my-zsh/themes

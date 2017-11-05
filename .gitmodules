@@ -50,3 +50,6 @@
 [submodule "roles/golang"]
 	path = roles/golang
 	url = git@github.com:seblegall/ansible-role-golang.git
+[submodule "roles/kubectl"]
+	path = roles/kubectl
+	url = git@github.com:seblegall/ansible-kubectl.git

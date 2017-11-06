@@ -52,3 +52,5 @@
     - atom
     - golang
     - kubectl
+    - minikube
+    - helm

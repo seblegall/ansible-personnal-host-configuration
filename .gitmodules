@@ -56,3 +56,6 @@
 [submodule "roles/minikube"]
 	path = roles/minikube
 	url = git@github.com:seblegall/ansible-minikube.git
+[submodule "roles/helm"]
+	path = roles/helm
+	url = git@github.com:seblegall/ansible-kubernetes-helm.git

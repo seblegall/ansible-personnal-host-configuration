@@ -53,3 +53,6 @@
 [submodule "roles/kubectl"]
 	path = roles/kubectl
 	url = git@github.com:seblegall/ansible-kubectl.git
+[submodule "roles/minikube"]
+	path = roles/minikube
+	url = git@github.com:seblegall/ansible-minikube.git
